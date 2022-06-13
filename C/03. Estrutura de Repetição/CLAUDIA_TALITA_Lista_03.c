@@ -4,7 +4,7 @@ foguete. O programa deve imprimir “10, 9, 8, ..., 1 e Fogo!” na tela.*/
 
 int main()
 {
-    int limite, i;
+    int i;
     for (i = 10; i >= 1; i--)
         printf("%d\n", i);
     printf("\nFogo!");
