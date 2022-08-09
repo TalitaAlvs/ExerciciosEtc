@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
 
 * {
     margin: 0;
@@ -10,7 +11,7 @@
 
 body {
     font-size: 100%;
-    background-color: #C9B89C;
+    background-color: #FCF8F7;
 }
 
 .cabecalho {
@@ -28,4 +29,26 @@ body {
 
 .menu-principal-item {
     font-family: 'Alegreya', serif;
+    color: #E57667;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #E57667;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 24px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    color: #E57667;
 }
